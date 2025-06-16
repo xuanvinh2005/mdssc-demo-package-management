@@ -10,6 +10,10 @@
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
+"@rollup/rollup-linux-x64-gnu@4.9.5":
+  version "4.9.5"
+  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.9.5.tgz#85946ee4d068bd12197aeeec2c6f679c94978a49"
+
 abab@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.4.tgz#5faad9c2c07f60dd76770f71cf025b62a63cfd4e"
@@ -2054,7 +2058,14 @@ js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
 
-js-yaml@^3.10.0, js-yaml@^3.7.0:
+js-yaml@^3.13.0:
+  version "3.14.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.14.1.tgz#dae812fdb3825fa306609a8717383c50c36a0537"
+  dependencies:
+    argparse "^1.0.7"
+    esprima "^4.0.0"
+
+js-yaml@^3.7.0:
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.10.0.tgz#2e78441646bd4682e963f22b6e92823c309c62dc"
   dependencies:
@@ -2490,11 +2501,13 @@ p-try@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-1.0.0.tgz#cbc79cdbaf8fd4228e13f621f2b1a237c1b207b3"
 
-pad@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/pad/-/pad-2.0.3.tgz#e2b877496c5576c299ee3df93bee95b76532dffb"
+pad@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/pad/-/pad-3.3.0.tgz#364c264ba0b1600468d85db1b8ddb9b522522d70"
   dependencies:
     wcwidth "^1.0.1"
+  optionalDependencies:
+    "@rollup/rollup-linux-x64-gnu" "4.9.5"
 
 parse-glob@^3.0.4:
   version "3.0.4"
